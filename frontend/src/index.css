@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300 focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+  }
+  
+  .status-badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .status-active {
+    @apply bg-success-100 text-success-800;
+  }
+  
+  .status-completed {
+    @apply bg-primary-100 text-primary-800;
+  }
+  
+  .status-on-hold {
+    @apply bg-warning-100 text-warning-800;
+  }
+  
+  .status-cancelled {
+    @apply bg-danger-100 text-danger-800;
+  }
+  
+  .priority-badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .priority-low {
+    @apply bg-gray-100 text-gray-800;
+  }
+  
+  .priority-medium {
+    @apply bg-blue-100 text-blue-800;
+  }
+  
+  .priority-high {
+    @apply bg-warning-100 text-warning-800;
+  }
+  
+  .priority-urgent {
+    @apply bg-danger-100 text-danger-800;
+  }
+} 
