@@ -2,6 +2,11 @@
 
 A modern, full-stack project management application built with React, Node.js, and PostgreSQL. Streamline your team collaboration, task management, and project tracking with this comprehensive solution.
 
+## **Deployed app**
+
+URL: https://project-management-production-b086.up.railway.app/
+admin username: admin@projectmanagement.com
+admin password: admin123
 ---
 
 ## 📋 **Project Overview**

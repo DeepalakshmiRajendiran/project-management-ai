@@ -472,9 +472,9 @@ const Reports = () => {
               <div className="text-center">
                 <CheckSquare className="h-10 w-10 mx-auto mb-2 text-gray-400" />
                 <p className="text-sm">
-                  {totalTasks === 0 ? 'No tasks created yet' : 'No task progress data available'}
+                  {stats.totalTasks === 0 ? 'No tasks created yet' : 'No task progress data available'}
                 </p>
-                {totalTasks === 0 && (
+                {stats.totalTasks === 0 && (
                   <p className="text-xs text-gray-400 mt-1">Create tasks in your projects to see progress</p>
                 )}
               </div>
